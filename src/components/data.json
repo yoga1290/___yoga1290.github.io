@@ -1,0 +1,47 @@
+{
+  "story": "It started w a [page](http://www.angelfire.com/linux/youssefgamil/conan.HTM) for Case Closed/Detective Conan, then Evangelion which led me to the great fan site of [Gendou](http://gendou.com/t/3711&ent=32016#32016), where I was introduced to MySQL, Java & PHP. Tried some competitive programming in high school and early collage.",
+  "hacks": [
+      {
+        "name":"StoryReport",
+        "commit":"10/08/2018",
+        "thumbnail":"https://img.youtube.com/vi/heAr1offWqU/0.jpg",
+        "description":[
+              "Record webpages, use them as overlay to your video and upload output to Google Drive",
+              "Coded in Angular, NodeJS & FFMPEG"  
+            ],
+        "devicon": [
+                    "devicon-nodejs-plain-wordmark",
+                    "devicon-docker-plain",
+                    "devicon-angularjs-plain"
+                  ],
+        "url": "https://yoga1290.gitlab.io/storyreport",
+        "github":"storyreport"
+      }, {
+        "name":"H5 Recorder",
+        "commit":"25/11/2017",
+        "thumbnail":"img/h5r.gif",
+        "description":[
+              "Webpage video recorder that attachs videos based on color selection (chromakey)",
+              "Coded in NodeJS, PhantomJS & FFMPEG"
+              ],
+        "url": "https://www.npmjs.com/package/h5recorder",
+        "devicon": [
+                    "devicon-nodejs-plain"],
+        "github":"H5Recorder"
+      }, {
+        "name":"Video Quotes",
+        "commit":"23/3/2015",
+        "thumbnail":"img/vquotes.png",
+        "description":[
+              "Browse and share Youtube scenes/quote. Login w Facebook to add more video quotes",
+              "Coded in Vue & Spring Boot"
+              ],
+        "github":"VideoQuotes",
+        "url":"https://yoga1290.github.io/VideoQuotes",
+
+        "devicon": [
+                    "devicon-vuejs-plain-wordmark",
+                    "devicon-mongodb-plain-wordmark"
+                  ]
+      }]
+}

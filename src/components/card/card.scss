@@ -1,0 +1,39 @@
+.card {
+    background-color: #FAFAFA;
+    background-position: center;
+    background-size: cover;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    font-weight: 400;
+    padding-bottom: 1px;
+    position: relative;
+    width: 100%;
+    display: inline-block;
+}
+
+.card .title {
+    color: #202124;
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: .23px;
+    line-height: 1.36;
+    letter-spacing: 0;
+    margin-bottom: 8px;
+    margin-left: 10px;
+}
+
+.card .details {
+    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-left: 10px;
+    color: #202124;
+}
+
+.card .buttons {
+    float: right;
+    margin-right: 10px;
+}
+.card .buttons i {
+    margin-right: 10px;
+}
