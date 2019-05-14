@@ -9,7 +9,7 @@ const path = require('path');
 const fs = require('fs');
 const APP_PATH = path.resolve(__dirname, 'src');
 
-const outputPath = path.resolve(__dirname, 'dist');
+const outputPath = path.resolve(__dirname)//, 'docs');
 
 let assetsPath = path.resolve(APP_PATH, 'assets');
 let assets = fs.readdirSync(assetsPath).map((v) => {

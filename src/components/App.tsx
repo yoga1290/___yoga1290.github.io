@@ -11,7 +11,7 @@ type LINK = {text:string, link:string};
 type TEXT = {text:string};
 
 // let bannerUrl = 'https://muumuse.com/wp-content/uploads/2018/04/utada-hikaru-hatsukoi-e1524633984786.jpg'
-let bannerUrl = 'assets/jj.jpg';
+//let bannerUrl = 'assets/jj.jpg';
 // https://thenewstack.io/the-dumbfounding-making-of-the-github-octocat-figurine/
 let ghBannerUrl = 'assets/gh.jpg';
 // https://thenalc.org/blog/projects/daily-bible-readings/
@@ -81,7 +81,6 @@ export const App = () => (
         className="col-xs-11"
         active={true}
         title="Github hacks"
-        subheading="sometime it works"
         bannerUrl={ghBannerUrl}>
         
         {
